@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A7ABC3A19448C050027A796 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7ABC3919448C050027A796 /* Foundation.framework */; };
+		3A7ABC3C19448C050027A796 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7ABC3B19448C050027A796 /* CoreGraphics.framework */; };
+		3A7ABC3E19448C050027A796 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7ABC3D19448C050027A796 /* UIKit.framework */; };
+		3A7ABC4019448C050027A796 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7ABC3F19448C050027A796 /* CoreData.framework */; };
+		3A7ABC4619448C050027A796 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A7ABC4419448C050027A796 /* InfoPlist.strings */; };
+		3A7ABC4819448C050027A796 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7ABC4719448C050027A796 /* main.m */; };
+		3A7ABC4C19448C050027A796 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7ABC4B19448C050027A796 /* AppDelegate.m */; };
+		3A7ABC4F19448C050027A796 /* Biathlon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A7ABC4D19448C050027A796 /* Biathlon.xcdatamodeld */; };
+		3A7ABC5119448C050027A796 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A7ABC5019448C050027A796 /* Images.xcassets */; };
+		3A7ABC5819448C050027A796 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7ABC5719448C050027A796 /* XCTest.framework */; };
+		3A7ABC5919448C050027A796 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7ABC3919448C050027A796 /* Foundation.framework */; };
+		3A7ABC5A19448C050027A796 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7ABC3D19448C050027A796 /* UIKit.framework */; };
+		3A7ABC5B19448C050027A796 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7ABC3F19448C050027A796 /* CoreData.framework */; };
+		3A7ABC6319448C050027A796 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A7ABC6119448C050027A796 /* InfoPlist.strings */; };
+		3A7ABC6519448C050027A796 /* BiathlonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7ABC6419448C050027A796 /* BiathlonTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A7ABC5C19448C050027A796 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A7ABC2E19448C040027A796 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A7ABC3519448C050027A796;
+			remoteInfo = Biathlon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A7ABC3619448C050027A796 /* Biathlon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Biathlon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A7ABC3919448C050027A796 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3A7ABC3B19448C050027A796 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3A7ABC3D19448C050027A796 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3A7ABC3F19448C050027A796 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3A7ABC4319448C050027A796 /* Biathlon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Biathlon-Info.plist"; sourceTree = "<group>"; };
+		3A7ABC4519448C050027A796 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3A7ABC4719448C050027A796 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A7ABC4919448C050027A796 /* Biathlon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Biathlon-Prefix.pch"; sourceTree = "<group>"; };
+		3A7ABC4A19448C050027A796 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3A7ABC4B19448C050027A796 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3A7ABC4E19448C050027A796 /* Biathlon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Biathlon.xcdatamodel; sourceTree = "<group>"; };
+		3A7ABC5019448C050027A796 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3A7ABC5619448C050027A796 /* BiathlonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BiathlonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A7ABC5719448C050027A796 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3A7ABC6019448C050027A796 /* BiathlonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BiathlonTests-Info.plist"; sourceTree = "<group>"; };
+		3A7ABC6219448C050027A796 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3A7ABC6419448C050027A796 /* BiathlonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BiathlonTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A7ABC3319448C050027A796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A7ABC3C19448C050027A796 /* CoreGraphics.framework in Frameworks */,
+				3A7ABC4019448C050027A796 /* CoreData.framework in Frameworks */,
+				3A7ABC3E19448C050027A796 /* UIKit.framework in Frameworks */,
+				3A7ABC3A19448C050027A796 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A7ABC5319448C050027A796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A7ABC5819448C050027A796 /* XCTest.framework in Frameworks */,
+				3A7ABC5B19448C050027A796 /* CoreData.framework in Frameworks */,
+				3A7ABC5A19448C050027A796 /* UIKit.framework in Frameworks */,
+				3A7ABC5919448C050027A796 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A7ABC2D19448C040027A796 = {
+			isa = PBXGroup;
+			children = (
+				3A7ABC4119448C050027A796 /* Biathlon */,
+				3A7ABC5E19448C050027A796 /* BiathlonTests */,
+				3A7ABC3819448C050027A796 /* Frameworks */,
+				3A7ABC3719448C050027A796 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A7ABC3719448C050027A796 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A7ABC3619448C050027A796 /* Biathlon.app */,
+				3A7ABC5619448C050027A796 /* BiathlonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A7ABC3819448C050027A796 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A7ABC3919448C050027A796 /* Foundation.framework */,
+				3A7ABC3B19448C050027A796 /* CoreGraphics.framework */,
+				3A7ABC3D19448C050027A796 /* UIKit.framework */,
+				3A7ABC3F19448C050027A796 /* CoreData.framework */,
+				3A7ABC5719448C050027A796 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A7ABC4119448C050027A796 /* Biathlon */ = {
+			isa = PBXGroup;
+			children = (
+				3A7ABC4A19448C050027A796 /* AppDelegate.h */,
+				3A7ABC4B19448C050027A796 /* AppDelegate.m */,
+				3A7ABC5019448C050027A796 /* Images.xcassets */,
+				3A7ABC4D19448C050027A796 /* Biathlon.xcdatamodeld */,
+				3A7ABC4219448C050027A796 /* Supporting Files */,
+			);
+			path = Biathlon;
+			sourceTree = "<group>";
+		};
+		3A7ABC4219448C050027A796 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A7ABC4319448C050027A796 /* Biathlon-Info.plist */,
+				3A7ABC4419448C050027A796 /* InfoPlist.strings */,
+				3A7ABC4719448C050027A796 /* main.m */,
+				3A7ABC4919448C050027A796 /* Biathlon-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A7ABC5E19448C050027A796 /* BiathlonTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A7ABC6419448C050027A796 /* BiathlonTests.m */,
+				3A7ABC5F19448C050027A796 /* Supporting Files */,
+			);
+			path = BiathlonTests;
+			sourceTree = "<group>";
+		};
+		3A7ABC5F19448C050027A796 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A7ABC6019448C050027A796 /* BiathlonTests-Info.plist */,
+				3A7ABC6119448C050027A796 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A7ABC3519448C050027A796 /* Biathlon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A7ABC6819448C050027A796 /* Build configuration list for PBXNativeTarget "Biathlon" */;
+			buildPhases = (
+				3A7ABC3219448C050027A796 /* Sources */,
+				3A7ABC3319448C050027A796 /* Frameworks */,
+				3A7ABC3419448C050027A796 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Biathlon;
+			productName = Biathlon;
+			productReference = 3A7ABC3619448C050027A796 /* Biathlon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A7ABC5519448C050027A796 /* BiathlonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A7ABC6B19448C050027A796 /* Build configuration list for PBXNativeTarget "BiathlonTests" */;
+			buildPhases = (
+				3A7ABC5219448C050027A796 /* Sources */,
+				3A7ABC5319448C050027A796 /* Frameworks */,
+				3A7ABC5419448C050027A796 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A7ABC5D19448C050027A796 /* PBXTargetDependency */,
+			);
+			name = BiathlonTests;
+			productName = BiathlonTests;
+			productReference = 3A7ABC5619448C050027A796 /* BiathlonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A7ABC2E19448C040027A796 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Philip Henson";
+				TargetAttributes = {
+					3A7ABC5519448C050027A796 = {
+						TestTargetID = 3A7ABC3519448C050027A796;
+					};
+				};
+			};
+			buildConfigurationList = 3A7ABC3119448C040027A796 /* Build configuration list for PBXProject "Biathlon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3A7ABC2D19448C040027A796;
+			productRefGroup = 3A7ABC3719448C050027A796 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A7ABC3519448C050027A796 /* Biathlon */,
+				3A7ABC5519448C050027A796 /* BiathlonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A7ABC3419448C050027A796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A7ABC4619448C050027A796 /* InfoPlist.strings in Resources */,
+				3A7ABC5119448C050027A796 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A7ABC5419448C050027A796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A7ABC6319448C050027A796 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A7ABC3219448C050027A796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A7ABC4C19448C050027A796 /* AppDelegate.m in Sources */,
+				3A7ABC4F19448C050027A796 /* Biathlon.xcdatamodeld in Sources */,
+				3A7ABC4819448C050027A796 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A7ABC5219448C050027A796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A7ABC6519448C050027A796 /* BiathlonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A7ABC5D19448C050027A796 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A7ABC3519448C050027A796 /* Biathlon */;
+			targetProxy = 3A7ABC5C19448C050027A796 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A7ABC4419448C050027A796 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A7ABC4519448C050027A796 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3A7ABC6119448C050027A796 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A7ABC6219448C050027A796 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A7ABC6619448C050027A796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3A7ABC6719448C050027A796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A7ABC6919448C050027A796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Biathlon/Biathlon-Prefix.pch";
+				INFOPLIST_FILE = "Biathlon/Biathlon-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3A7ABC6A19448C050027A796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Biathlon/Biathlon-Prefix.pch";
+				INFOPLIST_FILE = "Biathlon/Biathlon-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3A7ABC6C19448C050027A796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Biathlon.app/Biathlon";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Biathlon/Biathlon-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BiathlonTests/BiathlonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3A7ABC6D19448C050027A796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Biathlon.app/Biathlon";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Biathlon/Biathlon-Prefix.pch";
+				INFOPLIST_FILE = "BiathlonTests/BiathlonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A7ABC3119448C040027A796 /* Build configuration list for PBXProject "Biathlon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A7ABC6619448C050027A796 /* Debug */,
+				3A7ABC6719448C050027A796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A7ABC6819448C050027A796 /* Build configuration list for PBXNativeTarget "Biathlon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A7ABC6919448C050027A796 /* Debug */,
+				3A7ABC6A19448C050027A796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3A7ABC6B19448C050027A796 /* Build configuration list for PBXNativeTarget "BiathlonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A7ABC6C19448C050027A796 /* Debug */,
+				3A7ABC6D19448C050027A796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3A7ABC4D19448C050027A796 /* Biathlon.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3A7ABC4E19448C050027A796 /* Biathlon.xcdatamodel */,
+			);
+			currentVersion = 3A7ABC4E19448C050027A796 /* Biathlon.xcdatamodel */;
+			path = Biathlon.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3A7ABC2E19448C040027A796 /* Project object */;
+}
