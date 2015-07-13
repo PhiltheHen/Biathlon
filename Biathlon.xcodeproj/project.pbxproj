@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A664C34194E48040060B5C5 /* DryFiringDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A664C33194E48040060B5C5 /* DryFiringDetailViewController.m */; };
 		3A7ABC3A19448C050027A796 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7ABC3919448C050027A796 /* Foundation.framework */; };
 		3A7ABC3C19448C050027A796 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7ABC3B19448C050027A796 /* CoreGraphics.framework */; };
 		3A7ABC3E19448C050027A796 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7ABC3D19448C050027A796 /* UIKit.framework */; };
@@ -22,6 +23,31 @@
 		3A7ABC5B19448C050027A796 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7ABC3F19448C050027A796 /* CoreData.framework */; };
 		3A7ABC6319448C050027A796 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A7ABC6119448C050027A796 /* InfoPlist.strings */; };
 		3A7ABC6519448C050027A796 /* BiathlonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7ABC6419448C050027A796 /* BiathlonTests.m */; };
+		3A7ABC6F19448CC60027A796 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A7ABC6E19448CC60027A796 /* MainStoryboard_iPad.storyboard */; };
+		3A8DA808194DBAC600940E25 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8DA807194DBAC600940E25 /* libsqlite3.dylib */; };
+		3A8DA811194DBE3100940E25 /* SWOD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8DA810194DBE3100940E25 /* SWOD.m */; };
+		3A8DA81D194DBF9A00940E25 /* SWODTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8DA81C194DBF9A00940E25 /* SWODTableViewController.m */; };
+		3A8DA820194DC00100940E25 /* SWODDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8DA81F194DC00100940E25 /* SWODDetailViewController.m */; };
+		3A8DA823194DC02E00940E25 /* DryFiringCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8DA822194DC02E00940E25 /* DryFiringCollectionViewController.m */; };
+		3A8DA829194DC06300940E25 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8DA828194DC06300940E25 /* MainTableViewController.m */; };
+		3A8DA82C194DC08300940E25 /* DryFiringCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8DA82B194DC08300940E25 /* DryFiringCollectionViewCell.m */; };
+		3A8DA834194DE2B200940E25 /* SWODTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8DA833194DE2B200940E25 /* SWODTableViewCell.m */; };
+		3A8DA837194DF89500940E25 /* SWODDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8DA836194DF89500940E25 /* SWODDatabase.m */; };
+		3AB71FB81983131900FEB34E /* LoadSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB71FB71983131900FEB34E /* LoadSensor.m */; };
+		3AB71FBA1983135800FEB34E /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB71FB91983135800FEB34E /* CoreBluetooth.framework */; };
+		3AB71FBE1983147B00FEB34E /* BLEUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB71FBD1983147B00FEB34E /* BLEUtility.m */; };
+		3AB71FC11983149000FEB34E /* BLEDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB71FC01983149000FEB34E /* BLEDevice.m */; };
+		3AB71FCA1983C97000FEB34E /* DeviceSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB71FC91983C97000FEB34E /* DeviceSelectorViewController.m */; };
+		3AB71FCD1983C99000FEB34E /* TriggerForcePlotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB71FCC1983C99000FEB34E /* TriggerForcePlotViewController.m */; };
+		3AB71FD019854AF800FEB34E /* BLEDeviceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB71FCF19854AF800FEB34E /* BLEDeviceTableViewCell.m */; };
+		3AB71FD21986E40400FEB34E /* biathlon.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 3AB71FD11986E40400FEB34E /* biathlon.sqlite */; };
+		3AE69926194F64C30032F0D3 /* holdingSpiral.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AE69921194F64C30032F0D3 /* holdingSpiral.png */; };
+		3AE69927194F64C30032F0D3 /* noRhythm.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AE69922194F64C30032F0D3 /* noRhythm.png */; };
+		3AE69928194F64C30032F0D3 /* precision.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AE69923194F64C30032F0D3 /* precision.png */; };
+		3AE69929194F64C30032F0D3 /* StandardMix.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AE69924194F64C30032F0D3 /* StandardMix.png */; };
+		3AE6992A194F64C30032F0D3 /* StandingLowerEntry.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AE69925194F64C30032F0D3 /* StandingLowerEntry.png */; };
+		3AEEC0DB197A92A0005537CC /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AEEC0DA197A92A0005537CC /* MainStoryboard_iPhone.storyboard */; };
+		F78340FB549C4411853EB46F /* libPods-Biathlon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F6DF823ABC94A798E8FEAED /* libPods-Biathlon.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +61,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F6DF823ABC94A798E8FEAED /* libPods-Biathlon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Biathlon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C5AF98D349449AC8C532D50 /* Pods-Biathlon.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Biathlon.xcconfig"; path = "Pods/Pods-Biathlon.xcconfig"; sourceTree = "<group>"; };
+		3A664C32194E48040060B5C5 /* DryFiringDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DryFiringDetailViewController.h; sourceTree = "<group>"; };
+		3A664C33194E48040060B5C5 /* DryFiringDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DryFiringDetailViewController.m; sourceTree = "<group>"; };
 		3A7ABC3619448C050027A796 /* Biathlon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Biathlon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A7ABC3919448C050027A796 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3A7ABC3B19448C050027A796 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +83,44 @@
 		3A7ABC6019448C050027A796 /* BiathlonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BiathlonTests-Info.plist"; sourceTree = "<group>"; };
 		3A7ABC6219448C050027A796 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3A7ABC6419448C050027A796 /* BiathlonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BiathlonTests.m; sourceTree = "<group>"; };
+		3A7ABC6E19448CC60027A796 /* MainStoryboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		3A8DA807194DBAC600940E25 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		3A8DA80F194DBE3100940E25 /* SWOD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWOD.h; sourceTree = "<group>"; };
+		3A8DA810194DBE3100940E25 /* SWOD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWOD.m; sourceTree = "<group>"; };
+		3A8DA81B194DBF9A00940E25 /* SWODTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWODTableViewController.h; sourceTree = "<group>"; };
+		3A8DA81C194DBF9A00940E25 /* SWODTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWODTableViewController.m; sourceTree = "<group>"; };
+		3A8DA81E194DC00100940E25 /* SWODDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWODDetailViewController.h; sourceTree = "<group>"; };
+		3A8DA81F194DC00100940E25 /* SWODDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWODDetailViewController.m; sourceTree = "<group>"; };
+		3A8DA821194DC02E00940E25 /* DryFiringCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DryFiringCollectionViewController.h; sourceTree = "<group>"; };
+		3A8DA822194DC02E00940E25 /* DryFiringCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DryFiringCollectionViewController.m; sourceTree = "<group>"; };
+		3A8DA827194DC06300940E25 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		3A8DA828194DC06300940E25 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		3A8DA82A194DC08300940E25 /* DryFiringCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DryFiringCollectionViewCell.h; sourceTree = "<group>"; };
+		3A8DA82B194DC08300940E25 /* DryFiringCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DryFiringCollectionViewCell.m; sourceTree = "<group>"; };
+		3A8DA832194DE2B200940E25 /* SWODTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWODTableViewCell.h; sourceTree = "<group>"; };
+		3A8DA833194DE2B200940E25 /* SWODTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWODTableViewCell.m; sourceTree = "<group>"; };
+		3A8DA835194DF89500940E25 /* SWODDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWODDatabase.h; sourceTree = "<group>"; };
+		3A8DA836194DF89500940E25 /* SWODDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWODDatabase.m; sourceTree = "<group>"; };
+		3AB71FB61983131900FEB34E /* LoadSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadSensor.h; sourceTree = "<group>"; };
+		3AB71FB71983131900FEB34E /* LoadSensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadSensor.m; sourceTree = "<group>"; };
+		3AB71FB91983135800FEB34E /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		3AB71FBC1983147B00FEB34E /* BLEUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEUtility.h; sourceTree = "<group>"; };
+		3AB71FBD1983147B00FEB34E /* BLEUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEUtility.m; sourceTree = "<group>"; };
+		3AB71FBF1983149000FEB34E /* BLEDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDevice.h; sourceTree = "<group>"; };
+		3AB71FC01983149000FEB34E /* BLEDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEDevice.m; sourceTree = "<group>"; };
+		3AB71FC81983C97000FEB34E /* DeviceSelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceSelectorViewController.h; sourceTree = "<group>"; };
+		3AB71FC91983C97000FEB34E /* DeviceSelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceSelectorViewController.m; sourceTree = "<group>"; };
+		3AB71FCB1983C99000FEB34E /* TriggerForcePlotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriggerForcePlotViewController.h; sourceTree = "<group>"; };
+		3AB71FCC1983C99000FEB34E /* TriggerForcePlotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriggerForcePlotViewController.m; sourceTree = "<group>"; };
+		3AB71FCE19854AF800FEB34E /* BLEDeviceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDeviceTableViewCell.h; sourceTree = "<group>"; };
+		3AB71FCF19854AF800FEB34E /* BLEDeviceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEDeviceTableViewCell.m; sourceTree = "<group>"; };
+		3AB71FD11986E40400FEB34E /* biathlon.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = biathlon.sqlite; sourceTree = "<group>"; };
+		3AE69921194F64C30032F0D3 /* holdingSpiral.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = holdingSpiral.png; sourceTree = "<group>"; };
+		3AE69922194F64C30032F0D3 /* noRhythm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noRhythm.png; sourceTree = "<group>"; };
+		3AE69923194F64C30032F0D3 /* precision.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = precision.png; sourceTree = "<group>"; };
+		3AE69924194F64C30032F0D3 /* StandardMix.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StandardMix.png; sourceTree = "<group>"; };
+		3AE69925194F64C30032F0D3 /* StandingLowerEntry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StandingLowerEntry.png; sourceTree = "<group>"; };
+		3AEEC0DA197A92A0005537CC /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +128,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AB71FBA1983135800FEB34E /* CoreBluetooth.framework in Frameworks */,
+				3A8DA808194DBAC600940E25 /* libsqlite3.dylib in Frameworks */,
 				3A7ABC3C19448C050027A796 /* CoreGraphics.framework in Frameworks */,
 				3A7ABC4019448C050027A796 /* CoreData.framework in Frameworks */,
 				3A7ABC3E19448C050027A796 /* UIKit.framework in Frameworks */,
 				3A7ABC3A19448C050027A796 /* Foundation.framework in Frameworks */,
+				F78340FB549C4411853EB46F /* libPods-Biathlon.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,10 +155,17 @@
 		3A7ABC2D19448C040027A796 = {
 			isa = PBXGroup;
 			children = (
-				3A7ABC4119448C050027A796 /* Biathlon */,
+				3AE69920194F644B0032F0D3 /* iPad */,
+				3A7ABC4119448C050027A796 /* Application */,
+				3A8DA80E194DBDF100940E25 /* Models */,
+				3A8DA80C194DBD6400940E25 /* View Controllers */,
+				3A8DA82D194DC09800940E25 /* Table Cells */,
+				3A8DA80D194DBD9E00940E25 /* Application Resources */,
+				3A7ABC4219448C050027A796 /* Supporting Files */,
 				3A7ABC5E19448C050027A796 /* BiathlonTests */,
 				3A7ABC3819448C050027A796 /* Frameworks */,
 				3A7ABC3719448C050027A796 /* Products */,
+				2C5AF98D349449AC8C532D50 /* Pods-Biathlon.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,36 +181,39 @@
 		3A7ABC3819448C050027A796 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3AB71FB91983135800FEB34E /* CoreBluetooth.framework */,
+				3A8DA807194DBAC600940E25 /* libsqlite3.dylib */,
 				3A7ABC3919448C050027A796 /* Foundation.framework */,
 				3A7ABC3B19448C050027A796 /* CoreGraphics.framework */,
 				3A7ABC3D19448C050027A796 /* UIKit.framework */,
 				3A7ABC3F19448C050027A796 /* CoreData.framework */,
 				3A7ABC5719448C050027A796 /* XCTest.framework */,
+				0F6DF823ABC94A798E8FEAED /* libPods-Biathlon.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3A7ABC4119448C050027A796 /* Biathlon */ = {
+		3A7ABC4119448C050027A796 /* Application */ = {
 			isa = PBXGroup;
 			children = (
 				3A7ABC4A19448C050027A796 /* AppDelegate.h */,
 				3A7ABC4B19448C050027A796 /* AppDelegate.m */,
-				3A7ABC5019448C050027A796 /* Images.xcassets */,
-				3A7ABC4D19448C050027A796 /* Biathlon.xcdatamodeld */,
-				3A7ABC4219448C050027A796 /* Supporting Files */,
 			);
+			name = Application;
 			path = Biathlon;
 			sourceTree = "<group>";
 		};
 		3A7ABC4219448C050027A796 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3AE6992B194F64CC0032F0D3 /* Dry Fire Images */,
 				3A7ABC4319448C050027A796 /* Biathlon-Info.plist */,
 				3A7ABC4419448C050027A796 /* InfoPlist.strings */,
 				3A7ABC4719448C050027A796 /* main.m */,
 				3A7ABC4919448C050027A796 /* Biathlon-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			path = Biathlon;
 			sourceTree = "<group>";
 		};
 		3A7ABC5E19448C050027A796 /* BiathlonTests */ = {
@@ -142,7 +223,7 @@
 				3A7ABC5F19448C050027A796 /* Supporting Files */,
 			);
 			path = BiathlonTests;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		3A7ABC5F19448C050027A796 /* Supporting Files */ = {
 			isa = PBXGroup;
@@ -153,6 +234,92 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3A8DA80C194DBD6400940E25 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3A8DA827194DC06300940E25 /* MainTableViewController.h */,
+				3A8DA828194DC06300940E25 /* MainTableViewController.m */,
+				3A8DA81B194DBF9A00940E25 /* SWODTableViewController.h */,
+				3A8DA81C194DBF9A00940E25 /* SWODTableViewController.m */,
+				3A8DA81E194DC00100940E25 /* SWODDetailViewController.h */,
+				3A8DA81F194DC00100940E25 /* SWODDetailViewController.m */,
+				3A8DA821194DC02E00940E25 /* DryFiringCollectionViewController.h */,
+				3A8DA822194DC02E00940E25 /* DryFiringCollectionViewController.m */,
+				3A664C32194E48040060B5C5 /* DryFiringDetailViewController.h */,
+				3A664C33194E48040060B5C5 /* DryFiringDetailViewController.m */,
+				3AB71FC81983C97000FEB34E /* DeviceSelectorViewController.h */,
+				3AB71FC91983C97000FEB34E /* DeviceSelectorViewController.m */,
+				3AB71FCB1983C99000FEB34E /* TriggerForcePlotViewController.h */,
+				3AB71FCC1983C99000FEB34E /* TriggerForcePlotViewController.m */,
+			);
+			name = "View Controllers";
+			path = Biathlon;
+			sourceTree = "<group>";
+		};
+		3A8DA80D194DBD9E00940E25 /* Application Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3AB71FD11986E40400FEB34E /* biathlon.sqlite */,
+				3A7ABC6E19448CC60027A796 /* MainStoryboard_iPad.storyboard */,
+				3AEEC0DA197A92A0005537CC /* MainStoryboard_iPhone.storyboard */,
+				3A7ABC5019448C050027A796 /* Images.xcassets */,
+			);
+			name = "Application Resources";
+			path = Biathlon;
+			sourceTree = "<group>";
+		};
+		3A8DA80E194DBDF100940E25 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3A7ABC4D19448C050027A796 /* Biathlon.xcdatamodeld */,
+				3AB71FBF1983149000FEB34E /* BLEDevice.h */,
+				3AB71FC01983149000FEB34E /* BLEDevice.m */,
+				3AB71FBC1983147B00FEB34E /* BLEUtility.h */,
+				3AB71FBD1983147B00FEB34E /* BLEUtility.m */,
+				3AB71FB61983131900FEB34E /* LoadSensor.h */,
+				3AB71FB71983131900FEB34E /* LoadSensor.m */,
+				3A8DA80F194DBE3100940E25 /* SWOD.h */,
+				3A8DA810194DBE3100940E25 /* SWOD.m */,
+				3A8DA835194DF89500940E25 /* SWODDatabase.h */,
+				3A8DA836194DF89500940E25 /* SWODDatabase.m */,
+			);
+			name = Models;
+			path = Biathlon;
+			sourceTree = "<group>";
+		};
+		3A8DA82D194DC09800940E25 /* Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3A8DA832194DE2B200940E25 /* SWODTableViewCell.h */,
+				3A8DA833194DE2B200940E25 /* SWODTableViewCell.m */,
+				3AB71FCE19854AF800FEB34E /* BLEDeviceTableViewCell.h */,
+				3AB71FCF19854AF800FEB34E /* BLEDeviceTableViewCell.m */,
+				3A8DA82A194DC08300940E25 /* DryFiringCollectionViewCell.h */,
+				3A8DA82B194DC08300940E25 /* DryFiringCollectionViewCell.m */,
+			);
+			name = "Table Cells";
+			path = Biathlon;
+			sourceTree = "<group>";
+		};
+		3AE69920194F644B0032F0D3 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		3AE6992B194F64CC0032F0D3 /* Dry Fire Images */ = {
+			isa = PBXGroup;
+			children = (
+				3AE69921194F64C30032F0D3 /* holdingSpiral.png */,
+				3AE69922194F64C30032F0D3 /* noRhythm.png */,
+				3AE69923194F64C30032F0D3 /* precision.png */,
+				3AE69924194F64C30032F0D3 /* StandardMix.png */,
+				3AE69925194F64C30032F0D3 /* StandingLowerEntry.png */,
+			);
+			name = "Dry Fire Images";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -160,9 +327,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A7ABC6819448C050027A796 /* Build configuration list for PBXNativeTarget "Biathlon" */;
 			buildPhases = (
+				86D3AFE96DAC4D4FA267924C /* Check Pods Manifest.lock */,
 				3A7ABC3219448C050027A796 /* Sources */,
 				3A7ABC3319448C050027A796 /* Frameworks */,
 				3A7ABC3419448C050027A796 /* Resources */,
+				4A4CDB0E39A141D78FC9669B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -228,8 +397,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AE6992A194F64C30032F0D3 /* StandingLowerEntry.png in Resources */,
+				3AE69929194F64C30032F0D3 /* StandardMix.png in Resources */,
+				3AE69926194F64C30032F0D3 /* holdingSpiral.png in Resources */,
+				3AEEC0DB197A92A0005537CC /* MainStoryboard_iPhone.storyboard in Resources */,
+				3AB71FD21986E40400FEB34E /* biathlon.sqlite in Resources */,
+				3A7ABC6F19448CC60027A796 /* MainStoryboard_iPad.storyboard in Resources */,
 				3A7ABC4619448C050027A796 /* InfoPlist.strings in Resources */,
+				3AE69928194F64C30032F0D3 /* precision.png in Resources */,
 				3A7ABC5119448C050027A796 /* Images.xcassets in Resources */,
+				3AE69927194F64C30032F0D3 /* noRhythm.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,14 +420,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4A4CDB0E39A141D78FC9669B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Biathlon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86D3AFE96DAC4D4FA267924C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3A7ABC3219448C050027A796 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A8DA829194DC06300940E25 /* MainTableViewController.m in Sources */,
+				3A8DA81D194DBF9A00940E25 /* SWODTableViewController.m in Sources */,
+				3A8DA811194DBE3100940E25 /* SWOD.m in Sources */,
+				3A8DA820194DC00100940E25 /* SWODDetailViewController.m in Sources */,
+				3A8DA834194DE2B200940E25 /* SWODTableViewCell.m in Sources */,
+				3AB71FCA1983C97000FEB34E /* DeviceSelectorViewController.m in Sources */,
+				3A8DA837194DF89500940E25 /* SWODDatabase.m in Sources */,
+				3AB71FC11983149000FEB34E /* BLEDevice.m in Sources */,
 				3A7ABC4C19448C050027A796 /* AppDelegate.m in Sources */,
+				3A8DA82C194DC08300940E25 /* DryFiringCollectionViewCell.m in Sources */,
+				3AB71FBE1983147B00FEB34E /* BLEUtility.m in Sources */,
 				3A7ABC4F19448C050027A796 /* Biathlon.xcdatamodeld in Sources */,
+				3AB71FB81983131900FEB34E /* LoadSensor.m in Sources */,
 				3A7ABC4819448C050027A796 /* main.m in Sources */,
+				3A664C34194E48040060B5C5 /* DryFiringDetailViewController.m in Sources */,
+				3A8DA823194DC02E00940E25 /* DryFiringCollectionViewController.m in Sources */,
+				3AB71FCD1983C99000FEB34E /* TriggerForcePlotViewController.m in Sources */,
+				3AB71FD019854AF800FEB34E /* BLEDeviceTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,26 +589,38 @@
 		};
 		3A7ABC6919448C050027A796 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C5AF98D349449AC8C532D50 /* Pods-Biathlon.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: CF Operations (P8S5H65KP7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Biathlon/Biathlon-Prefix.pch";
 				INFOPLIST_FILE = "Biathlon/Biathlon-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2DF5F038-5A2E-4912-A4DF-01E6C9556253";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		3A7ABC6A19448C050027A796 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C5AF98D349449AC8C532D50 /* Pods-Biathlon.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: CF Operations (P8S5H65KP7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Biathlon/Biathlon-Prefix.pch";
 				INFOPLIST_FILE = "Biathlon/Biathlon-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2DF5F038-5A2E-4912-A4DF-01E6C9556253";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -447,6 +684,7 @@
 				3A7ABC6A19448C050027A796 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A7ABC6B19448C050027A796 /* Build configuration list for PBXNativeTarget "BiathlonTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +693,7 @@
 				3A7ABC6D19448C050027A796 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
