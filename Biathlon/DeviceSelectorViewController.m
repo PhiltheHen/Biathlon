@@ -84,7 +84,7 @@
     return @"";
 }
 
--(double) tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section {
+-(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
     return 150.0f;
 }
 
@@ -108,21 +108,17 @@
     destination.d = d;
 }
 
-
 #pragma mark - CBCentralManager delegate
 
 -(void)centralManagerDidUpdateState:(CBCentralManager *)central {
     if (central.state != CBCentralManagerStatePoweredOn) {
-        UIAlertView *alertView = [[UIAlertView alloc]initWithTitle:@"BLE not supported !" message:[NSString stringWithFormat:@"CoreBluetooth return state: %ld",central.state] delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        UIAlertView *alertView = [[UIAlertView alloc]initWithTitle:@"BLE not supported !" message:[NSString stringWithFormat:@"CoreBluetooth return state: %ld",(long)central.state] delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
         [alertView show];
     }
     else {
         [central scanForPeripheralsWithServices:nil options:nil];
     }
 }
-
-
-
 
 -(void)centralManager:(CBCentralManager *)central didDiscoverPeripheral:(CBPeripheral *)peripheral advertisementData:(NSDictionary *)advertisementData RSSI:(NSNumber *)RSSI {
     

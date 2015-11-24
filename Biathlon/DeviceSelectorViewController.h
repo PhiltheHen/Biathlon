@@ -22,7 +22,6 @@
 @property (strong,nonatomic) NSMutableArray *nDevices;
 @property (strong,nonatomic) NSMutableArray *sensorTags;
 
-
 -(NSMutableDictionary *) makeSensorTagConfiguration;
 
 @end

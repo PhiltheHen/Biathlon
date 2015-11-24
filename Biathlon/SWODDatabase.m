@@ -22,7 +22,6 @@ static SWODDatabase *_database;
 - (id)init {
     if ((self = [super init])) {
         
-        
         NSFileManager *fileManager = [NSFileManager defaultManager];
         NSString *filePath = [self databasePath];
         

@@ -412,6 +412,8 @@ NSUInteger currentIndex;
         // Continuously store data as it comes in to be plot in real time
         
         float loadVal = [sensorMCP3422 calcLoad:characteristic.value];
+
+        // Testing other calculations for load
         float loadVal2 = [sensorMCP3422 calcLoad2:characteristic.value];
         float loadVal3 = [sensorMCP3422 calcLoad3:characteristic.value];
         
@@ -420,15 +422,10 @@ NSUInteger currentIndex;
         
         NSLog(@"loadVal: %f",loadVal);
     }
-    
-    
-    
 }
 
 -(void)peripheral:(CBPeripheral *)peripheral didWriteValueForCharacteristic:(CBCharacteristic *)characteristic error:(NSError *)error {
     NSLog(@"didWriteValueForCharacteristic %@ error = %@",characteristic.UUID,error);
-
-    
 }
 
 /*

@@ -14,6 +14,8 @@
     return self;
 }
 
+// Class methods for handling streaming load cell data
+
 +(float) calcLoad:(NSData *)data {
     char tempVal[data.length];
     [data getBytes:&tempVal length:data.length];
@@ -24,6 +26,8 @@
     return (float)load;
 }
 
+
+// Testing other calculations for load
 +(float) calcLoad2:(NSData *)data {
     char tempVal[data.length];
     [data getBytes:&tempVal length:data.length];
